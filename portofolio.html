@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio - Fakhri</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark
+    bg-primary shadow-lg fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Fakhri</a>
+            <button class="navbar-toggler" type="button" 
+            
+            data-bs-toggler="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active"
+                        aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Jumbotron -->
+    <section class="jumbotron text-center" id="home">
+        <img src="foto/akuh.jpg" width="200" 
+        class="rounded-circle">
+        <h1 class="display-4">Fakhri Nurrahman</h1>
+        <p class="lead">Student | Web Developer</p>
+    </section>
+
+    <!-- Bagian About -->
+    <section id="about">
+        <div class="container pt-5 pb-5">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="display-4">About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Repellendus vitae corrupti reiciendis. Odio, 
+                        natus iste.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Ea temporibus odit laborum aliquid debitis 
+                        dolor!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container pt-5 pb-5">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="display-4">Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="foto/foto1.jpg" width="200" height="200" style="object-fit: cover;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing elit. 
+                                Laudantium, ad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="foto/foto2.jpg" width="200" height="200" style="object-fit: cover;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing elit. 
+                                Laudantium, ad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="foto/foto3.jpg" width="200" height="200" style="object-fit: cover;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing elit. 
+                                Laudantium, ad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="foto/foto4.jpg" width="200" height="200" style="object-fit: cover;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing elit. 
+                                Laudantium, ad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="foto/foto5.jpg" width="200" height="200" style="object-fit: cover;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing elit. 
+                                Laudantium, ad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="display-4">Contact Me</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="">
+                    <div class="md-3">
+                        <label for="name" class="form-label">
+                            Nama Lengkap
+                        </label>
+                        <input type="text" class="form-control" id="name"
+                        aria-describedby="name">
+                    </div>
+                    <div class="md-3">
+                        <label for="email" class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control" id="email"
+                        aria-describedby="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">
+                            Pesan
+                        </label>
+                        <textarea class="form-control" id="pesan"rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer class="bg-primary text-center text-white p-3">
+        <p>&copy;CyberClub 2024</p>
+    </footer>
+
+</body>
+</html>

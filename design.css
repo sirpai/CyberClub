@@ -1,0 +1,12 @@
+.jumbotron{
+ padding: 15%;
+ background: url(foto/foto1.jpg);   
+}
+
+.gallery{
+    background: url(foto/foto1.jpg);
+}
+
+.contact{
+    padding: 5rem 1rem;
+}
